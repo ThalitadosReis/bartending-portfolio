@@ -1,10 +1,21 @@
+import { Routes, Route } from "react-router-dom";
+import Layout from "./components/Layout";
 import NavBar from "./components/NavBar";
+import Bartend from "./components/Bartend";
+import Workshop from "./components/Workshop";
+import About from "./components/About";
 
 function App() {
   return (
     <>
       <NavBar />
-      <h1 style={{ marginTop: "100px" }}>Home</h1>
+
+      <Routes>
+        <Route exact path="/" element={<Layout />} />
+        <Route exact path="/about" element={<About />} />
+        <Route exact path="/workshop" element={<Workshop />} />
+        <Route exact path="/bartending" element={<Bartend />} />
+      </Routes>
     </>
   );
 }

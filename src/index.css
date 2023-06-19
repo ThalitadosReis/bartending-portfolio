@@ -158,3 +158,22 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon:before {
 nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   border-color: transparent;
 }
+
+/* Banner */
+
+.full-background {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  height: 50vh;
+  width: 100%;
+
+  /* Background */
+  background: url("https://images.pexels.com/photos/9454718/pexels-photo-9454718.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1") center center / cover no-repeat;
+}
+
+#about img {
+  width: 25%;
+}
