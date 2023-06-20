@@ -2,13 +2,14 @@ import { Link } from "react-router-dom";
 
 export default function Service() {
   return (
-    <div className="container d-flex">
-      <div className="container my-5" id="service">
+    <div className="container my-5" id="service">
+      <div className=" d-flex flex-column flex-md-row gap-3">
         <img
-          src="https://images.pexels.com/photos/2209519/pexels-photo-2209519.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+          className="w-50"
+          src="https://images.pexels.com/photos/4279101/pexels-photo-4279101.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
           alt=""
         />
-        <div className="container">
+        <div className="pt-2">
           <h3>Workshop</h3>
           <p>
             Lorem Ipsum is simply dummy text of the printing and typesetting
@@ -16,20 +17,20 @@ export default function Service() {
             ever since the 1500s, when an unknown printer took a galley of type
             and scrambled it to make a type specimen book. It has survived not
             only five centuries, but also the leap into electronic typesetting,
-            remaining essentially unchanged. It was popularised in the 1960s
-            with the release of Letraset sheets containing Lorem Ipsum passages,
-            and more recently with desktop publishing software like Aldus
-            PageMaker including versions of Lorem Ipsum.
+            remaining essentially unchanged.
           </p>
+          <br />
+
           <Link to="/workshop">More info</Link>
         </div>
       </div>
-      <div className="container my-5 border" id="bartend">
+      <div className=" d-flex flex-column flex-md-row gap-3 my-5" id="bartend">
         <img
-          src="https://images.pexels.com/photos/2209519/pexels-photo-2209519.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+          className="w-50"
+          src="https://images.pexels.com/photos/6004589/pexels-photo-6004589.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
           alt=""
         />
-        <div className="container">
+        <div className="pt-2">
           <h3>Bartending</h3>
           <p>
             Lorem Ipsum is simply dummy text of the printing and typesetting
@@ -37,11 +38,9 @@ export default function Service() {
             ever since the 1500s, when an unknown printer took a galley of type
             and scrambled it to make a type specimen book. It has survived not
             only five centuries, but also the leap into electronic typesetting,
-            remaining essentially unchanged. It was popularised in the 1960s
-            with the release of Letraset sheets containing Lorem Ipsum passages,
-            and more recently with desktop publishing software like Aldus
-            PageMaker including versions of Lorem Ipsum.
+            remaining essentially unchanged.
           </p>
+          <br />
           <Link to="/bartending">More info</Link>
         </div>
       </div>

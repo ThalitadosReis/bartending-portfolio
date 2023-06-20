@@ -78,11 +78,9 @@ nav.navbar {
   top: 0;
   z-index: 9999;
   transition: 0.32s ease-in-out;
-}
 
-nav.navbar.scrolled {
   background: transparent;
-  backdrop-filter: blur(10px);
+  backdrop-filter: blur(15px);
 }
 
 nav.navbar a {
