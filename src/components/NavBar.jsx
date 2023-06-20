@@ -3,14 +3,14 @@ import { Link } from "react-router-dom";
 
 export default function NavBar() {
   return (
-    <Navbar expand="md" style={{ padding: "15px" }}>
+    <Navbar expand="md" style={{ padding: "10px" }}>
       <Container>
         <Link to="/">Bartender Brain</Link>
         <Navbar.Toggle aria-controls="basic-navbar-nav">
           <span className="navbar-toggler-icon"></span>
         </Navbar.Toggle>
         <Navbar.Collapse id="basic-navbar-nav">
-          <Nav className="ms-auto gap-4">
+          <Nav className="ms-auto gap-3">
             <Link to="/about">About</Link>
             <Link to="/workshop">Service</Link>
             <Link to="/bartending">Bartend</Link>
