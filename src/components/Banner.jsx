@@ -1,6 +1,6 @@
 export default function Banner() {
   return (
-    <div className="container mt-5 d-flex full-background" id="home">
+    <div className="container d-flex full-background" id="home">
       <div className="overlay"></div>
       <div className="text">
         <h1>

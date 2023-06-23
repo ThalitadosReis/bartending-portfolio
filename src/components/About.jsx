@@ -1,14 +1,11 @@
 export default function About() {
   return (
-    <div className="container d-flex my-5 gap-5" id="about">
+    <div
+      className="container d-flex gap-5"
+      id="about"
+      style={{ marginTop: "100px" }}
+    >
       <div className="d-flex flex-column-reverse flex-md-row gap-5">
-        <img
-          style={{
-            width: "400px",
-          }}
-          src="https://images.pexels.com/photos/771742/pexels-photo-771742.jpeg?auto=compress&cs=tinysrgb&w=400"
-          alt=""
-        />
         <div className="w-100">
           <h1>About Me</h1>
           <p>
@@ -23,6 +20,13 @@ export default function About() {
             PageMaker including versions of Lorem Ipsum.
           </p>
         </div>
+        <img
+          style={{
+            width: "300px",
+          }}
+          src="https://images.pexels.com/photos/771742/pexels-photo-771742.jpeg?auto=compress&cs=tinysrgb&w=400"
+          alt=""
+        />
       </div>
     </div>
   );

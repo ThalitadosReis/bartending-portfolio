@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 export default function NavBar() {
   return (
-    <Navbar expand="md" style={{ padding: "10px" }}>
+    <Navbar expand="md">
       <Container>
         <Link to="/">Bartender Brain</Link>
         <Navbar.Toggle aria-controls="basic-navbar-nav">
