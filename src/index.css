@@ -15,7 +15,7 @@ body {
   font-weight: 400;
   overflow-x: hidden;
   position: relative;
-  background-color: #191919 !important;
+  background-color: #000 !important;
   color: #f7f7f7 !important;
   font-family: "Zen Kaku Gothic New";
   -webkit-font-smoothing: antialiased;
@@ -37,6 +37,7 @@ a,
 li,
 button,
 ul {
+  color: inherit;
   margin: 0;
   padding: 0;
   line-height: normal;
@@ -74,14 +75,12 @@ select:focus {
 /* navbar */
 nav.navbar {
   position: fixed;
-  padding: 10px 0;
+  padding: 15px 0;
   width: 100%;
   top: 0;
   z-index: 9999;
   transition: 0.32s ease-in-out;
-
-  background: transparent;
-  backdrop-filter: blur(25px);
+  background: rgba(0, 0, 0, 1);
 }
 
 nav.navbar a {
@@ -144,4 +143,34 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon:before {
 
 nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   border-color: transparent;
+}
+
+/* services */
+#service {
+  position: relative;
+  height: 100vh;
+  overflow: hidden;
+}
+
+#service h2 {
+  font-size: 45px;
+  font-weight: 300;
+  margin: 15px 0;
+  max-width: 512px;
+}
+
+#service p {
+  font-weight: 300;
+}
+
+@media (min-width: 768px) {
+  #service img {
+    width: 40%;
+  }
+}
+
+@media (max-width: 767px) {
+  #service img {
+    width: 100%;
+  }
 }
