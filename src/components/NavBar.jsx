@@ -12,7 +12,7 @@ export default function NavBar() {
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="ms-auto gap-3">
             <Link to="/about">About</Link>
-            <Link to="/workshop">Service</Link>
+            <Link to="/workshop">Workshop</Link>
             <Link to="/bartending">Bartend</Link>
           </Nav>
         </Navbar.Collapse>
