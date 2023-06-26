@@ -9,7 +9,7 @@ export default function Banner() {
       </video>
 
       <div className="container-banner">
-        <div className="content">
+        <div className="container d-flex">
           <div className="headline">
             <h2>Welcome to Bartender Brain</h2>
             <p>
@@ -18,7 +18,7 @@ export default function Banner() {
               varius mi convallis ac. Donec eget lobortis eros.
             </p>
             <div className="buttons">
-              <a href="#" className="get-started">
+              <a href="#" className="more-info">
                 More info
               </a>
               <a href="#">More info</a>
