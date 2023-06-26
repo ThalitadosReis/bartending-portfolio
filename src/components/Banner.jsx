@@ -1,18 +1,30 @@
+import video from "../assets/video.mp4";
+import "./Banner.css";
+
 export default function Banner() {
   return (
-    <div className="container d-flex full-background" id="home">
-      <div className="overlay"></div>
-      <div className="text">
-        <h1>
-          Welcome to
-          <br /> Bartender Brain
-        </h1>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-          aliquip ex ea commodo consequat.
-        </p>
+    <div id="home">
+      <video autoPlay muted loop id="player">
+        <source src={video} type="video/mp4" />
+      </video>
+
+      <div className="container-banner">
+        <div className="content">
+          <div className="headline">
+            <h2>Welcome to Bartender Brain</h2>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus
+              tristique porta ex vel scelerisque. Donec molestie semper est, id
+              varius mi convallis ac. Donec eget lobortis eros.
+            </p>
+            <div className="buttons">
+              <a href="#" className="get-started">
+                More info
+              </a>
+              <a href="#">More info</a>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   );
