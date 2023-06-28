@@ -1,9 +1,9 @@
-import { Navbar, Nav, Container } from "react-bootstrap";
 import { Link } from "react-router-dom";
+import { Navbar, Nav, Container } from "react-bootstrap";
 
 export default function NavBar() {
   return (
-    <Navbar expand="md">
+    <Navbar expand="md" bg="light">
       <Container>
         <Link to="/">Bartender Brain</Link>
         <Navbar.Toggle aria-controls="basic-navbar-nav">
@@ -11,9 +11,9 @@ export default function NavBar() {
         </Navbar.Toggle>
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="ms-auto gap-3">
-            <Link to="/about">About</Link>
             <Link to="/workshop">Workshop</Link>
-            <Link to="/bartending">Bartend</Link>
+            <Link to="/events">Private Events</Link>
+            <Link to="/about">About</Link>
           </Nav>
         </Navbar.Collapse>
       </Container>

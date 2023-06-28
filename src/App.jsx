@@ -14,7 +14,7 @@ function App() {
         <Route exact path="/" element={<Layout />} />
         <Route exact path="/about" element={<About />} />
         <Route exact path="/workshop" element={<Workshop />} />
-        <Route exact path="/bartending" element={<Bartend />} />
+        <Route exact path="/events" element={<Bartend />} />
       </Routes>
     </>
   );
