@@ -1,4 +1,3 @@
-// import video from "../assets/video.mp4";
 import "./Banner.css";
 
 export default function Banner() {
@@ -16,29 +15,35 @@ export default function Banner() {
           </p>
         </div>
       </div>
-    </div>
 
-    /* <video autoPlay muted loop id="player">
-        <source src={video} type="video/mp4" />
-      </video>
-
-      <div className="container-banner">
-        <div className="container d-flex">
-          <div className="headline">
-            <h2>Welcome to Bartender Brain</h2>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus
-              tristique porta ex vel scelerisque. Donec molestie semper est, id
-              varius mi convallis ac. Donec eget lobortis eros.
-            </p>
-            <div className="buttons">
-              <a href="#" className="more-info">
-                More info
-              </a>
-              <a href="#">More info</a>
-            </div>
+      <div id="collage">
+        <div className="image-grid">
+          <div className="image">
+            <img
+              src="https://images.pexels.com/photos/4762725/pexels-photo-4762725.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+              alt="Image 1"
+            />
+          </div>
+          <div className="image">
+            <img
+              src="https://images.pexels.com/photos/3019019/pexels-photo-3019019.jpeg?auto=compress&cs=tinysrgb&w=1600"
+              alt="Image 2"
+            />
+          </div>
+          <div className="image">
+            <img
+              src="https://images.pexels.com/photos/7376924/pexels-photo-7376924.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+              alt="Image 3"
+            />
+          </div>
+          <div className="image">
+            <img
+              src="https://images.pexels.com/photos/7376769/pexels-photo-7376769.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+              alt="Image 4"
+            />
           </div>
         </div>
-      </div> */
+      </div>
+    </div>
   );
 }
