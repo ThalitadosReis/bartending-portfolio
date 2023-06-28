@@ -3,7 +3,7 @@ import { Navbar, Nav, Container } from "react-bootstrap";
 
 export default function NavBar() {
   return (
-    <Navbar expand="md" bg="light">
+    <Navbar expand="md">
       <Container>
         <Link to="/">Bartender Brain</Link>
         <Navbar.Toggle aria-controls="basic-navbar-nav">

@@ -94,45 +94,42 @@ nav.navbar .navbar-toggler:focus {
 }
 
 /* banner */
-#home {
+.banner {
+  gap: 50px;
+  border-top-width: 0px;
+  border-right-width: 0px;
+  border-bottom-width: 1px;
+  border-left-width: 0px;
+  border-color: #444;
+  border-style: solid;
+  padding: 0 0 20px;
   display: flex;
-  flex-wrap: wrap;
+  align-items: center;
   justify-content: center;
 }
 
-#home h1 {
+.title h1 {
   font-family: "Bowlby One SC", sans-serif;
-  font-size: 100px;
+  font-size: calc(6vw + 6vh + 2vmin);
   font-weight: 400;
+  text-align: center;
   text-transform: uppercase;
+  line-height: 1em;
+  padding: 0 0 20px;
 }
 
 .description {
   font-size: 18px;
-  line-height: 1.2em;
-  width: 50%;
+  text-align: justify;
+  word-break: break-word;
+  word-wrap: break-word;
 }
 
-/* media query to make the page responsive on smaller devices */
-@media screen and (max-width: 767px) {
-  #home h1 {
-    font-size: 55px;
-  }
-
-  #home h1,
-  .description {
-    flex-basis: 100%;
+@media (max-width: 991px) {
+  .banner {
+    display: block;
   }
 }
-
-/* media query to make the page responsive on bigger devices */
-@media screen and (min-width: 768px) {
-  #home {
-    gap: 20px;
-    align-items: center;
-  }
-}
-
 
 /* services */
 #service {

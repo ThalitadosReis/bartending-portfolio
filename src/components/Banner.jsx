@@ -3,9 +3,11 @@ import "./Banner.css";
 
 export default function Banner() {
   return (
-    <div className="container">
-      <div id="home">
-        <h1>Welcome</h1>
+    <div className="container" id="home">
+      <div className="banner">
+        <div className="title">
+          <h1>Welcome</h1>
+        </div>
         <div className="description">
           <p>
             Get ready for a whirlwind of mixology magic at Bartender Brain by
@@ -15,6 +17,7 @@ export default function Banner() {
         </div>
       </div>
     </div>
+
     /* <video autoPlay muted loop id="player">
         <source src={video} type="video/mp4" />
       </video>
