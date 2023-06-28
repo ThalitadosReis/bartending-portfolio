@@ -1,6 +1,5 @@
 // import video from "../assets/video.mp4";
 import "./Banner.css";
-import Collage from "./Collage";
 
 export default function Banner() {
   return (
@@ -15,8 +14,6 @@ export default function Banner() {
           </p>
         </div>
       </div>
-
-      <Collage />
     </div>
     /* <video autoPlay muted loop id="player">
         <source src={video} type="video/mp4" />
