@@ -1,10 +1,24 @@
-import video from "../assets/video.mp4";
+// import video from "../assets/video.mp4";
 import "./Banner.css";
+import Collage from "./Collage";
 
 export default function Banner() {
   return (
-    <div id="home">
-      <video autoPlay muted loop id="player">
+    <div className="container">
+      <div id="home">
+        <h1>Welcome</h1>
+        <div className="description">
+          <p>
+            Get ready for a whirlwind of mixology magic at Bartender Brain by
+            Sven Steinbrecher! Experience exceptional service, dazzling drinks,
+            and captivating classes like never before.
+          </p>
+        </div>
+      </div>
+
+      <Collage />
+    </div>
+    /* <video autoPlay muted loop id="player">
         <source src={video} type="video/mp4" />
       </video>
 
@@ -25,7 +39,6 @@ export default function Banner() {
             </div>
           </div>
         </div>
-      </div>
-    </div>
+      </div> */
   );
 }
