@@ -2,47 +2,73 @@ import { Link } from "react-router-dom";
 
 export default function Service() {
   return (
-    <section className="container" id="service">
-      <h2>Services</h2>
-      <div className="d-flex flex-column flex-md-row gap-4 my-4">
-        <img
-          src="https://images.pexels.com/photos/4279101/pexels-photo-4279101.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-          alt=""
-        />
-        <div>
-          <h3>Workshop</h3>
-          <p>
-            Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry. Lorem Ipsum has been the industrys standard dummy text
-            ever since the 1500s, when an unknown printer took a galley of type
-            and scrambled it to make a type specimen book. It has survived not
-            only five centuries, but also the leap into electronic typesetting,
-            remaining essentially unchanged.
-          </p>
-
-          <Link to="/workshop" className="more-info">
-            More info
-          </Link>
+    <div className="service">
+      <div className="container">
+        <div className="service-area">
+          <img
+            src="https://framerusercontent.com/images/eEbdusEqBEMfPozVNa9XUm647s.jpg"
+            alt=""
+          />
+          <div className="service-text-area">
+            <h2>Workshops</h2>
+            <div className="service-list">
+              <h4>Expert Guidance</h4>
+              <p>
+                Experience hands-on learning from Sven s expert instruction.
+              </p>
+            </div>
+            <div className="service-list">
+              <h4>Tailored Content</h4>
+              <p>Interactive workshops based on specific themes or topics.</p>
+            </div>
+            <div className="service-list">
+              <h4>Atmosphere</h4>
+              <p>
+                Create memorable experiences through engaging cocktail
+                workshops.
+              </p>
+            </div>
+            <hr />
+            <Link to="/workshop" className="more-info">
+              More info
+            </Link>
+          </div>
         </div>
       </div>
-      <div className="d-flex flex-column flex-md-row gap-4 my-4">
-        <img
-          src="https://images.pexels.com/photos/6004589/pexels-photo-6004589.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-          alt=""
-        />
-        <div>
-          <h3>Bartending</h3>
-          <p>
-            Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry. Lorem Ipsum has been the industrys standard dummy text
-            ever since the 1500s, when an unknown printer took a galley of type
-            and scrambled it to make a type specimen book. It has survived not
-            only five centuries, but also the leap into electronic typesetting,
-            remaining essentially unchanged.
-          </p>
-          <Link to="/bartending">More info</Link>
+      <div className="container mt-5">
+        <div className="service-area">
+          <img
+            src="https://framerusercontent.com/images/1VT2ybma3IdiILoBtvNOndH6fY.jpg?scale-down-to=1024"
+            alt=""
+          />
+          <div className="service-text-area">
+            <h2>Private Events</h2>
+            <div className="service-list">
+              <h4>Bespoke Service</h4>
+              <p>
+                Cocktail catering, bartending staff, and menu customization.
+              </p>
+            </div>
+            <div className="service-list">
+              <h4>Diverse Experience</h4>
+              <p>
+                Serving weddings, corporate parties, and private celebrations.
+              </p>
+            </div>
+            <div className="service-list">
+              <h4>Client Satisfaction</h4>
+              <p>
+                Delivering professionalism, drink quality, and personalized
+                service.
+              </p>
+            </div>
+            <hr />
+            <Link to="/events" className="more-info">
+              More info
+            </Link>
+          </div>
         </div>
       </div>
-    </section>
+    </div>
   );
 }
