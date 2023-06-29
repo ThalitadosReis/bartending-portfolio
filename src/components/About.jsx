@@ -6,7 +6,7 @@ export default function About() {
         <div className="about-area">
           <img
             src="https://images.pexels.com/photos/771742/pexels-photo-771742.jpeg?auto=compress&cs=tinysrgb&w=400"
-            alt=""
+            alt="Image 1"
           />
           <div className="text-area">
             <h3>Meet Sven: Passionate Bartender</h3>
@@ -27,7 +27,7 @@ export default function About() {
           </div>
           <img
             src="https://keystoneacademic-res.cloudinary.com/image/upload/element/12/129036_logo.jpg"
-            alt=""
+            alt="Image 2"
           />
         </div>
       </div>
