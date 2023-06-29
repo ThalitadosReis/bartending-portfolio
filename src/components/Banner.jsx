@@ -1,9 +1,7 @@
-import "./Banner.css";
-
 export default function Banner() {
   return (
     <div className="container" id="home">
-      <div className="banner">
+      <div className="container banner">
         <div className="title">
           <h1>Welcome</h1>
         </div>
