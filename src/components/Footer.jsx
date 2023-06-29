@@ -1,7 +1,12 @@
+import logo from "../assets/logo.svg";
+
 export default function Footer() {
   return (
-    <div className="container my-5">
-      <h2>This is the footer</h2>
+    <div className="footer">
+      <div className="container">
+        <img src={logo} alt="" />
+        <p>© 2023 Bartender Brain by Sven Steinbrecher</p>
+      </div>
     </div>
   );
 }

@@ -275,3 +275,14 @@ line-height: 3em;
 .contact a:hover {
   background-color: rgb(68, 68, 68, 0.9);
 }
+
+
+/* footer */
+.footer {
+  padding: 50px 0;
+  text-align: center;
+}
+.footer img {
+  padding: 10px 0;
+  width: 50px;
+}
