@@ -1,32 +1,35 @@
 export default function About() {
   return (
-    <div
-      className="container d-flex gap-5"
-      id="about"
-      style={{ marginTop: "100px" }}
-    >
-      <div className="d-flex flex-column-reverse flex-md-row gap-5">
-        <div className="w-100">
-          <h1>About Me</h1>
-          <p>
-            Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry. Lorem Ipsum has been the industrys standard dummy text
-            ever since the 1500s, when an unknown printer took a galley of type
-            and scrambled it to make a type specimen book. It has survived not
-            only five centuries, but also the leap into electronic typesetting,
-            remaining essentially unchanged. It was popularised in the 1960s
-            with the release of Letraset sheets containing Lorem Ipsum passages,
-            and more recently with desktop publishing software like Aldus
-            PageMaker including versions of Lorem Ipsum.
-          </p>
+    <div className="about">
+      <div className="container">
+        <h2>The Man Behind the Magic</h2>
+        <div className="about-area">
+          <img
+            src="https://images.pexels.com/photos/771742/pexels-photo-771742.jpeg?auto=compress&cs=tinysrgb&w=400"
+            alt=""
+          />
+          <div className="text-area">
+            <h3>Meet Sven: Passionate Bartender</h3>
+            <p>
+              Sven Steinbrecher takes pride in delivering exceptional bartending
+              services and cocktails, fueled by his love for mixology and
+              top-notch service.
+            </p>
+          </div>
         </div>
-        <img
-          style={{
-            width: "300px",
-          }}
-          src="https://images.pexels.com/photos/771742/pexels-photo-771742.jpeg?auto=compress&cs=tinysrgb&w=400"
-          alt=""
-        />
+        <div className="about-area">
+          <div className="text-area">
+            <h3>Certified Bartender & Instructor</h3>
+            <p>
+              Sven has earned multiple certifications and qualifications,
+              proving his expertise in the bartending world.
+            </p>
+          </div>
+          <img
+            src="https://keystoneacademic-res.cloudinary.com/image/upload/element/12/129036_logo.jpg"
+            alt=""
+          />
+        </div>
       </div>
     </div>
   );
