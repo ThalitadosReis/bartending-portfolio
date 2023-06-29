@@ -217,6 +217,7 @@ nav.navbar .navbar-toggler:focus {
 .service {
   margin: 50px 0;
 }
+
 .service-area {
   width: 100%;
   gap: 50px;
@@ -232,7 +233,6 @@ nav.navbar .navbar-toggler:focus {
   max-width: 400px;
 }
 
-
 .service img {
   max-width: 400px;
   height: 400px;
@@ -242,4 +242,36 @@ nav.navbar .navbar-toggler:focus {
 
 .service-list {
   margin: 10px 0;
+}
+
+/* contact section */
+.contact {
+  padding: 50px 0;
+  background-color: #000;
+  color: #fff;
+  text-align: center;
+}
+
+.contact-text-area {
+max-width: 400px;
+line-height: 3em;
+
+}
+.contact h2 {
+  font-family: "Bowlby One", "sans-serif";
+  font-size: 32px;
+  font-weight: 400;
+}
+
+.contact a {
+  padding: 5px 10px;
+  border-radius: 5px;
+    background-color: rgb(68, 68, 68, 0.7);
+
+  color: #fff;
+  text-decoration: none;
+}
+
+.contact a:hover {
+  background-color: rgb(68, 68, 68, 0.9);
 }

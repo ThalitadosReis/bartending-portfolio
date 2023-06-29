@@ -1,8 +1,8 @@
 import Banner from "./Banner";
-import Service from "./Service";
-// import Footer from "./Footer";
-// import Contact from "./Contact";
 import About from "./About";
+import Service from "./Service";
+import Contact from "./Contact";
+import Footer from "./Footer";
 
 export default function Layout() {
   return (
@@ -10,8 +10,8 @@ export default function Layout() {
       <Banner />
       <About />
       <Service />
-      {/* <Contact /> */}
-      {/* <Footer /> */}
+      <Contact />
+      <Footer />
     </>
   );
 }
