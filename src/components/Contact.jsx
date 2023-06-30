@@ -9,7 +9,7 @@ export default function Contact() {
           Ready to shake things up? Choose Bartender Brain for your next
           workshop or event!
         </p>
-        <Link to="#">Book Now</Link>
+        <Link to="/contact">Book Now</Link>
       </div>
     </div>
   );

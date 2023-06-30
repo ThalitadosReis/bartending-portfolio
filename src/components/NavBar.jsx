@@ -17,7 +17,7 @@ export default function NavBar() {
           <Nav className="ms-auto gap-4">
             <Link to="/workshop">Workshop</Link>
             <Link to="/events">Private Events</Link>
-            <Link to="/about">About</Link>
+            <Link to="/contact">Contact</Link>
           </Nav>
         </Navbar.Collapse>
       </Container>
