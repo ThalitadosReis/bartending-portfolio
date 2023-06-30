@@ -130,7 +130,7 @@ nav.navbar .navbar-toggler:focus {
 
 .title h1 {
   font-family: "Bowlby One SC", sans-serif;
-  font-size: calc(3vw + 3vh + .5vmin);
+  font-size: calc(4vw + 4vh + .5vmin);
   font-weight: 400;
   text-align: center;
   text-transform: uppercase;
@@ -157,7 +157,7 @@ nav.navbar .navbar-toggler:focus {
 #collage {
   margin: 30px 0 50px;
   border-radius: 30px;
-  height: 40vw;
+  height: 50vw;
   overflow: hidden;
 }
 
@@ -271,18 +271,6 @@ nav.navbar .navbar-toggler:focus {
   font-weight: 400;
 }
 
-.contact a {
-  padding: 5px 15px;
-  border-radius: 5px;
-  background-color: rgb(68, 68, 68, 0.7);
-  color: #fff;
-}
-
-.contact a:hover {
-  background-color: rgb(68, 68, 68, 0.9);
-}
-
-
 /* footer */
 .footer {
   padding: 20px 0 50px;
@@ -292,4 +280,24 @@ nav.navbar .navbar-toggler:focus {
 .footer img {
   padding: 10px 0;
   width: 50px;
+}
+
+/* contact form */
+.contact-form {
+  padding: 50px 0;
+}
+
+.contact-form h2 {
+  font-family: "Bowlby One", "sans-serif";
+  font-size: 32px;
+  line-height: 1em;
+  font-weight: 400;
+  text-align: center;
+}
+
+.contact-form img {
+  max-width: 400px;
+  height: 400px;
+  border-radius: 30px;
+  object-fit: cover;
 }
