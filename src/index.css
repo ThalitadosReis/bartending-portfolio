@@ -1,5 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Bowlby+One+SC&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Bowlby+One&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Bowlby+One+SC&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bowlby+One&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Nunito:200,300,regular,500,600,700,800,900,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic");
 
 * {
@@ -11,7 +11,8 @@
   -webkit-font-smoothing: antialiased;
 }
 
-html, body {
+html,
+body {
   height: 100%;
   margin: 0;
   padding: 0;
@@ -115,27 +116,26 @@ nav.navbar .navbar-toggler:focus {
 
   align-content: center;
   align-items: center;
-    display: flex;
-    flex: none;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    gap: 50px;
-    height: min-content;
-    justify-content: center;
-    overflow: visible;
-    padding: 0 0 20px;
-    position: relative;
-    width: 100%;
+  display: flex;
+  flex: none;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  gap: 50px;
+  height: min-content;
+  justify-content: center;
+  overflow: visible;
+  padding: 0 0 20px;
+  position: relative;
+  width: 100%;
 }
 
 .title h1 {
   font-family: "Bowlby One SC", sans-serif;
-  font-size: calc(4vw + 4vh + .5vmin);
+  font-size: calc(3vw + 3vh + 1vmin);
   font-weight: 400;
   text-align: center;
   text-transform: uppercase;
   line-height: 1em;
-  
 }
 
 .description {
@@ -149,9 +149,7 @@ nav.navbar .navbar-toggler:focus {
     flex-direction: column;
     gap: 20px;
     text-align: center;
-    
   }
-  
 }
 
 #collage {
@@ -164,11 +162,11 @@ nav.navbar .navbar-toggler:focus {
 .image-grid {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  grid-gap: 30px;
+  grid-gap: 20px;
   overflow: hidden;
 
   transform: rotate(-5deg) translateY(-20%);
-  width: 130%;
+  width: 140%;
 }
 
 .image img {
@@ -214,7 +212,8 @@ nav.navbar .navbar-toggler:focus {
 }
 
 /* about and service common styling */
-.about h2, .service h2 {
+.about h2,
+.service h2 {
   font-family: "Bowlby One", "sans-serif";
   font-size: 32px;
   line-height: 1em;
@@ -262,7 +261,6 @@ nav.navbar .navbar-toggler:focus {
 .contact-text-area {
   max-width: 400px;
   line-height: 3em;
-  
 }
 .contact h2 {
   color: #000;
