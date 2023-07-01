@@ -61,6 +61,7 @@ a:hover {
 img {
   width: 100%;
   height: auto;
+  object-fit: cover;
   /* filter: grayscale(100%); */
 }
 
@@ -298,4 +299,77 @@ nav.navbar .navbar-toggler:focus {
   height: 400px;
   border-radius: 30px;
   object-fit: cover;
+}
+
+/* workshop page */
+.full-background {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 25vh;
+  width: 100%;
+
+  /* Background */
+  background: url("https://images.unsplash.com/photo-1568815783110-8418ce761392?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80")
+    center center / cover no-repeat;
+  opacity: 0.7;
+
+  /* Heading */
+  color: white;
+  border-radius: 30px;
+}
+
+/* Workshop Area */
+.workshop-area {
+  display: grid;
+  align-items: center;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 50px;
+}
+
+.workshop-text-area {
+  flex: 1;
+  max-width: 350px;
+}
+
+.workshop-area img {
+  max-width: 350px;
+  height: 350px;
+  border-radius: 30px;
+}
+
+.img2 img {
+  border-top-left-radius: 30px;
+  border-top-right-radius: 110px;
+  border-bottom-left-radius: 110px;
+  border-bottom-right-radius: 110px;
+}
+
+.workshop h2 {
+  font-family: "Bowlby One", "sans-serif";
+  font-size: 32px;
+  line-height: 1em;
+  font-weight: 400;
+}
+
+.workshop h3 {
+  font-family: "Bowlby One", "sans-serif";
+  font-size: 23px;
+  line-height: 1.1em;
+  padding-bottom: 15px;
+}
+
+/* Gallery  */
+.grid-gallery {
+  padding: 50px 0;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
+}
+
+.grid-gallery img {
+  max-width: 400px;
+  height: 300px;
+  border-radius: 30px;
 }
