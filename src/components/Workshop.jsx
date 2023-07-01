@@ -11,7 +11,7 @@ export default function Workshop() {
           </div>
         </div>
         <div className="my-5 d-flex justify-content-center">
-          <div className="workshop-area">
+          <div className="workshop-area d-flex flex-wrap">
             <img
               src="https://images.unsplash.com/photo-1621873495914-1c921811e37b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=868&q=80"
               alt=""
@@ -27,7 +27,7 @@ export default function Workshop() {
           </div>
         </div>
         <div className="d-flex justify-content-center">
-          <div className="workshop-area img2">
+          <div className="workshop-area d-flex flex-wrap img2">
             <div className="workshop-text-area">
               <h3>Learn The Art of Mixology</h3>
               <p>
@@ -37,7 +37,7 @@ export default function Workshop() {
               </p>
             </div>
             <img
-              src="https://images.unsplash.com/photo-1621873495914-1c921811e37b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=868&q=80"
+              src="https://images.unsplash.com/photo-1499638673689-79a0b5115d87?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=928&q=80"
               alt=""
             />
           </div>

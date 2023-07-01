@@ -1,7 +1,7 @@
 import { Routes, Route } from "react-router-dom";
 import Layout from "./components/Layout";
 import NavBar from "./components/NavBar";
-import Bartend from "./components/Bartend";
+import Bartend from "./components/Events";
 import Workshop from "./components/Workshop";
 import ContactForm from "./components/ContactForm";
 
