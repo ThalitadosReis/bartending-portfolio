@@ -62,7 +62,6 @@ img {
   width: 100%;
   height: auto;
   object-fit: cover;
-  /* filter: grayscale(100%); */
 }
 
 button {
@@ -76,9 +75,8 @@ select:focus {
   outline: none;
 }
 
-/* navbar */
+/************************* Navigation Bar *************************/
 nav.navbar {
-  /* position: fixed; */
   padding: 20px 0;
   width: 100%;
   top: 0;
@@ -106,7 +104,7 @@ nav.navbar .navbar-toggler:focus {
   width: 35px;
 }
 
-/* banner section */
+/************************* Banner Section *************************/
 .banner {
   border-top-width: 0px;
   border-right-width: 0px;
@@ -177,7 +175,7 @@ nav.navbar .navbar-toggler:focus {
   border-radius: 30px;
 }
 
-/* about section */
+/************************* About Section *************************/
 .about {
   /* background-color: #000; */
   /* color: #fff; */
@@ -222,7 +220,7 @@ nav.navbar .navbar-toggler:focus {
   text-align: left;
 }
 
-/* service section */
+/************************* Services Section *************************/
 .service {
   margin: 50px 0;
 }
@@ -253,7 +251,7 @@ nav.navbar .navbar-toggler:focus {
   margin: 10px 0;
 }
 
-/* contact section */
+/********************** Contact Component **********************/
 .contact {
   padding: 50px 0;
   text-align: center;
@@ -270,7 +268,7 @@ nav.navbar .navbar-toggler:focus {
   font-weight: 400;
 }
 
-/* footer */
+/**************************** Footer ****************************/
 .footer {
   padding: 20px 0 50px;
   text-align: center;
@@ -281,7 +279,7 @@ nav.navbar .navbar-toggler:focus {
   width: 50px;
 }
 
-/* contact form */
+/************************* Contact Form *************************/
 .contact-form {
   padding: 50px 0;
 }
@@ -301,7 +299,7 @@ nav.navbar .navbar-toggler:focus {
   object-fit: cover;
 }
 
-/* workshop page */
+/************************* Workshop Page *************************/
 .full-background {
   align-items: center;
   display: flex;
@@ -330,7 +328,7 @@ nav.navbar .navbar-toggler:focus {
 
 .workshop-text-area {
   flex: 1;
-  max-width: 350px;
+  max-width: 400px;
 }
 
 .workshop-area img {
@@ -364,11 +362,78 @@ nav.navbar .navbar-toggler:focus {
 .grid-gallery {
   padding: 50px 0;
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   grid-gap: 20px;
 }
 
 .grid-gallery img {
+  max-width: 400px;
+  height: 300px;
+  border-radius: 30px;
+}
+
+/************************* Events Page *************************/
+.events-area {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 50px;
+}
+
+.events-text-area {
+  max-width: 350px;
+  display: flex;
+  align-items: center;
+}
+
+.events-area img {
+  height: 300px;
+  max-width: 300px;
+
+  border-top-left-radius: 30px;
+  border-top-right-radius: 110px;
+  border-bottom-left-radius: 110px;
+  border-bottom-right-radius: 30px;
+}
+
+/* events-section */
+.events-section {
+  padding: 50px;
+  border-radius: 30px;
+  background-color: #e1e1e3;
+}
+
+.events-section div {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+}
+
+.events h3 {
+  font-family: "Bowlby One", "sans-serif";
+  font-size: 23px;
+  line-height: 1.1em;
+  padding-bottom: 15px;
+  color: #444;
+}
+
+.events h2 {
+  font-family: "Bowlby One", "sans-serif";
+  font-size: 32px;
+  line-height: 1.1em;
+  padding-bottom: 15px;
+}
+
+/* events gallery */
+.events-gallery {
+  padding: 20px 0 50px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-gap: 20px;
+}
+
+.events-gallery img {
   max-width: 400px;
   height: 300px;
   border-radius: 30px;
